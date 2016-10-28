@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
 set backspace=2
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
