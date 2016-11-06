@@ -19,9 +19,6 @@ nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
-" --- Shift+Arrow keys to select text
-behave mswin
-
 " --- Vundle - required for plugins further below
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
