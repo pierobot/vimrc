@@ -5,14 +5,6 @@ filetype off
 set backspace=2
 set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
 
-" --- Colors and default theme
-syntax on
-set t_Co=256
-set background=dark
-colorscheme PaperColor
-set number
-set laststatus=2
-
 " --- Use Alt+Arrow key to switch between windows
 nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
@@ -31,6 +23,13 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
 let g:airline_theme='PaperColor'
+ 
+syntax on
+set t_Co=256
+set background=dark
+colorscheme PaperColor
+set number
+set laststatus=2
 
 " --- Syntax highlighting
 Plugin 'octol/vim-cpp-enhanced-highlight'
