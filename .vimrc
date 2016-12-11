@@ -23,7 +23,7 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
 let g:airline_theme='PaperColor'
- 
+
 syntax on
 set t_Co=256
 set background=dark
@@ -34,11 +34,15 @@ set laststatus=2
 " --- Syntax highlighting
 Plugin 'octol/vim-cpp-enhanced-highlight'
 let g:cpp_class_scope_highlight=1
-let g:cpp_experimental_template_highlight=0
+let g:cpp_experimental_simple_template_highlight=0
 let c_no_curly_error=1
 
+" --- Autocomplete
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'nathanaelkane/vim-indent-guides'
+
+" --- Indent highlighting
+Plugin 'yggdroot/indentline'
 
 " ------ GVIM
 set guioptions-=T
