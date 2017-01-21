@@ -22,12 +22,14 @@ filetype plugin indent on
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
-let g:airline_theme='PaperColor'
+Bundle 'sonph/onehalf', {'rtp': 'vim/'}
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
 
 syntax on
 set t_Co=256
 set background=dark
-colorscheme PaperColor
+"colorscheme PaperColor
 set number
 set laststatus=2
 
